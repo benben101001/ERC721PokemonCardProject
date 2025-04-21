@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract PokemonCard is ERC721URIStorage, Ownable {
     uint256 private _tokenIds;
 
-    constructor() ERC721("PokemonCard", "PKC") {}
+    constructor() ERC721("PokemonCard", "PKC") Ownable(msg.sender) {}
 
     function mintCard(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {
         _tokenIds++;
