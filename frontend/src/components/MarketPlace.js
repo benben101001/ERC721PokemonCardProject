@@ -1,7 +1,7 @@
 // src/components/Marketplace.js
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import tradingAbi from ".../abis/TradingPlatform.json";
+import tradingAbi from "../abis/TradingPlatform.json";
 import { initWeb3 } from "../web3";
 
 // 🔁 replace with your actual deployed address
