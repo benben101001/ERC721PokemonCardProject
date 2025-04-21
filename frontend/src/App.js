@@ -1,18 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Marketplace from './components/MarketPlace';
+// src/App.js
+import React from "react";
+import Marketplace from "./components/Marketplace.js";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Edit <code>src/App.js</code> and save to reload.</p>
-        <Marketplace />
-      </header>
+      <h1>ERC-721 Pokémon Card Marketplace</h1>
+      <Marketplace />
     </div>
   );
 }
 
 export default App;
-
