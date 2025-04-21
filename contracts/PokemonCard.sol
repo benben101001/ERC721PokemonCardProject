@@ -16,5 +16,3 @@ contract PokemonCard is ERC721URIStorage, Ownable {
         return _tokenIds;
     }
 }
-
-
