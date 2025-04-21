@@ -1,8 +1,7 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# ERC721 Pokémon Card Project
 
-Try running some of the following tasks:
+This project implements a custom ERC721 NFT smart contract and trading platform for Pokémon cards.
 
 ```shell
 npx hardhat help
@@ -11,3 +10,4 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
