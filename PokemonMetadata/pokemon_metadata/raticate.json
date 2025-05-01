@@ -1,0 +1,19 @@
+{
+  "name": "Raticate #20",
+  "description": "A Pokémon NFT of raticate",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/raticate.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Height",
+      "value": 7
+    },
+    {
+      "trait_type": "Weight",
+      "value": 185
+    }
+  ]
+}

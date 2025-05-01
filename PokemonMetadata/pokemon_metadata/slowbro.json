@@ -1,0 +1,23 @@
+{
+  "name": "Slowbro #80",
+  "description": "A Pokémon NFT of slowbro",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/slowbro.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Height",
+      "value": 16
+    },
+    {
+      "trait_type": "Weight",
+      "value": 785
+    }
+  ]
+}

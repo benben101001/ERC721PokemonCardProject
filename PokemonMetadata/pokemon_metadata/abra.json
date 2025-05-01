@@ -1,0 +1,19 @@
+{
+  "name": "Abra #63",
+  "description": "A Pokémon NFT of abra",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/abra.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Height",
+      "value": 9
+    },
+    {
+      "trait_type": "Weight",
+      "value": 195
+    }
+  ]
+}

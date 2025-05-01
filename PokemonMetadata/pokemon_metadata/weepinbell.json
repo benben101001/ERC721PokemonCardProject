@@ -1,0 +1,23 @@
+{
+  "name": "Weepinbell #70",
+  "description": "A Pokémon NFT of weepinbell",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/weepinbell.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 64
+    }
+  ]
+}

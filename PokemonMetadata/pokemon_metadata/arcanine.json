@@ -1,0 +1,19 @@
+{
+  "name": "Arcanine #59",
+  "description": "A Pokémon NFT of arcanine",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/arcanine.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Height",
+      "value": 19
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1550
+    }
+  ]
+}

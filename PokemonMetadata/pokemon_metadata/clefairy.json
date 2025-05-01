@@ -1,0 +1,19 @@
+{
+  "name": "Clefairy #35",
+  "description": "A Pokémon NFT of clefairy",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/clefairy.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Height",
+      "value": 6
+    },
+    {
+      "trait_type": "Weight",
+      "value": 75
+    }
+  ]
+}

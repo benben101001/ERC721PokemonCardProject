@@ -1,0 +1,23 @@
+{
+  "name": "Doduo #84",
+  "description": "A Pokémon NFT of doduo",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/doduo.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    },
+    {
+      "trait_type": "Weight",
+      "value": 392
+    }
+  ]
+}

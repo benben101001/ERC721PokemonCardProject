@@ -1,0 +1,23 @@
+{
+  "name": "Fearow #22",
+  "description": "A Pokémon NFT of fearow",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/fearow.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 12
+    },
+    {
+      "trait_type": "Weight",
+      "value": 380
+    }
+  ]
+}

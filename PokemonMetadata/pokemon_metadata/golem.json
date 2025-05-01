@@ -1,0 +1,23 @@
+{
+  "name": "Golem #76",
+  "description": "A Pokémon NFT of golem",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/golem.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    },
+    {
+      "trait_type": "Weight",
+      "value": 3000
+    }
+  ]
+}

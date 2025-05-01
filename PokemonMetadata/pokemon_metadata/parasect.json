@@ -1,0 +1,23 @@
+{
+  "name": "Parasect #47",
+  "description": "A Pokémon NFT of parasect",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/parasect.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "bug"
+    },
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 295
+    }
+  ]
+}

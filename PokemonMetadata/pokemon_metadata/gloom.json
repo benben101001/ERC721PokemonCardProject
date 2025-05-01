@@ -1,0 +1,23 @@
+{
+  "name": "Gloom #44",
+  "description": "A Pokémon NFT of gloom",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/gloom.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 8
+    },
+    {
+      "trait_type": "Weight",
+      "value": 86
+    }
+  ]
+}

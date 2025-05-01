@@ -1,0 +1,19 @@
+{
+  "name": "Diglett #50",
+  "description": "A Pokémon NFT of diglett",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/diglett.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Height",
+      "value": 2
+    },
+    {
+      "trait_type": "Weight",
+      "value": 8
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Spearow #21",
+  "description": "A Pokémon NFT of spearow",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/spearow.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    },
+    {
+      "trait_type": "Weight",
+      "value": 20
+    }
+  ]
+}

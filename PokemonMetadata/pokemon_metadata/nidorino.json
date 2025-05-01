@@ -1,0 +1,19 @@
+{
+  "name": "Nidorino #33",
+  "description": "A Pokémon NFT of nidorino",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/nidorino.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 9
+    },
+    {
+      "trait_type": "Weight",
+      "value": 195
+    }
+  ]
+}

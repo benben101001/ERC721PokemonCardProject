@@ -1,0 +1,19 @@
+{
+  "name": "Shellder #90",
+  "description": "A Pokémon NFT of shellder",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/shellder.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    },
+    {
+      "trait_type": "Weight",
+      "value": 40
+    }
+  ]
+}

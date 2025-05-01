@@ -1,0 +1,23 @@
+{
+  "name": "Gengar #94",
+  "description": "A Pokémon NFT of gengar",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/gengar.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ghost"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    },
+    {
+      "trait_type": "Weight",
+      "value": 405
+    }
+  ]
+}

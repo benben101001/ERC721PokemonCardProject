@@ -1,0 +1,19 @@
+{
+  "name": "Persian #53",
+  "description": "A Pokémon NFT of persian",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/persian.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 320
+    }
+  ]
+}

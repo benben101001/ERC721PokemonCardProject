@@ -1,0 +1,23 @@
+{
+  "name": "Onix #95",
+  "description": "A Pokémon NFT of onix",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/onix.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Height",
+      "value": 88
+    },
+    {
+      "trait_type": "Weight",
+      "value": 2100
+    }
+  ]
+}

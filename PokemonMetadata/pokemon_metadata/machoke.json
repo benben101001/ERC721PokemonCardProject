@@ -1,0 +1,19 @@
+{
+  "name": "Machoke #67",
+  "description": "A Pokémon NFT of machoke",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/machoke.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    },
+    {
+      "trait_type": "Weight",
+      "value": 705
+    }
+  ]
+}

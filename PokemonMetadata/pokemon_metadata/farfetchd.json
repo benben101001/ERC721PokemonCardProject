@@ -1,0 +1,23 @@
+{
+  "name": "Farfetchd #83",
+  "description": "A Pokémon NFT of farfetchd",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/farfetchd.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 8
+    },
+    {
+      "trait_type": "Weight",
+      "value": 150
+    }
+  ]
+}

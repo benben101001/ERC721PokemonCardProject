@@ -1,0 +1,19 @@
+{
+  "name": "Blastoise #9",
+  "description": "A Pokémon NFT of blastoise",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/blastoise.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Height",
+      "value": 16
+    },
+    {
+      "trait_type": "Weight",
+      "value": 855
+    }
+  ]
+}

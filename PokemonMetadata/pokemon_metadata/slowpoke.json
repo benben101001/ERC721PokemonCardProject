@@ -1,0 +1,23 @@
+{
+  "name": "Slowpoke #79",
+  "description": "A Pokémon NFT of slowpoke",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/slowpoke.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Height",
+      "value": 12
+    },
+    {
+      "trait_type": "Weight",
+      "value": 360
+    }
+  ]
+}

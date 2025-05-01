@@ -1,0 +1,23 @@
+{
+  "name": "Dewgong #87",
+  "description": "A Pokémon NFT of dewgong",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/dewgong.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Height",
+      "value": 17
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1200
+    }
+  ]
+}

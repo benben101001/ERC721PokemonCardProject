@@ -1,0 +1,23 @@
+{
+  "name": "Gastly #92",
+  "description": "A Pokémon NFT of gastly",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/gastly.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ghost"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 13
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1
+    }
+  ]
+}

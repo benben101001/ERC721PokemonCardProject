@@ -1,0 +1,19 @@
+{
+  "name": "Rapidash #78",
+  "description": "A Pokémon NFT of rapidash",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/rapidash.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Height",
+      "value": 17
+    },
+    {
+      "trait_type": "Weight",
+      "value": 950
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Pidgeotto #17",
+  "description": "A Pokémon NFT of pidgeotto",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/pidgeotto.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    },
+    {
+      "trait_type": "Weight",
+      "value": 300
+    }
+  ]
+}

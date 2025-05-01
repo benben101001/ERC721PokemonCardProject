@@ -1,0 +1,23 @@
+{
+  "name": "Pidgey #16",
+  "description": "A Pokémon NFT of pidgey",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/pidgey.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    },
+    {
+      "trait_type": "Weight",
+      "value": 18
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Machamp #68",
+  "description": "A Pokémon NFT of machamp",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/machamp.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Height",
+      "value": 16
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1300
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Kadabra #64",
+  "description": "A Pokémon NFT of kadabra",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/kadabra.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Height",
+      "value": 13
+    },
+    {
+      "trait_type": "Weight",
+      "value": 565
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Raichu #26",
+  "description": "A Pokémon NFT of raichu",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/raichu.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Height",
+      "value": 8
+    },
+    {
+      "trait_type": "Weight",
+      "value": 300
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Grimer #88",
+  "description": "A Pokémon NFT of grimer",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/grimer.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 9
+    },
+    {
+      "trait_type": "Weight",
+      "value": 300
+    }
+  ]
+}

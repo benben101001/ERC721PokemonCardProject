@@ -1,0 +1,23 @@
+{
+  "name": "Wigglytuff #40",
+  "description": "A Pokémon NFT of wigglytuff",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/wigglytuff.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 120
+    }
+  ]
+}

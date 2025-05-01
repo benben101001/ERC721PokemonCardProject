@@ -1,0 +1,19 @@
+{
+  "name": "Mankey #56",
+  "description": "A Pokémon NFT of mankey",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/mankey.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    },
+    {
+      "trait_type": "Weight",
+      "value": 280
+    }
+  ]
+}

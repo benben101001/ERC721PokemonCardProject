@@ -1,0 +1,19 @@
+{
+  "name": "Primeape #57",
+  "description": "A Pokémon NFT of primeape",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/primeape.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 320
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Bulbasaur #1",
+  "description": "A Pokémon NFT of bulbasaur",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/bulbasaur.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 7
+    },
+    {
+      "trait_type": "Weight",
+      "value": 69
+    }
+  ]
+}

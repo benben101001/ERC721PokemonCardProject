@@ -1,0 +1,23 @@
+{
+  "name": "Magneton #82",
+  "description": "A Pokémon NFT of magneton",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/magneton.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Type",
+      "value": "steel"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 600
+    }
+  ]
+}

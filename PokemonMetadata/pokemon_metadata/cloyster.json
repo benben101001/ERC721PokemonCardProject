@@ -1,0 +1,23 @@
+{
+  "name": "Cloyster #91",
+  "description": "A Pokémon NFT of cloyster",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/cloyster.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1325
+    }
+  ]
+}

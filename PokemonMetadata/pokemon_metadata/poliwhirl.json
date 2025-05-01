@@ -1,0 +1,19 @@
+{
+  "name": "Poliwhirl #61",
+  "description": "A Pokémon NFT of poliwhirl",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/poliwhirl.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 200
+    }
+  ]
+}

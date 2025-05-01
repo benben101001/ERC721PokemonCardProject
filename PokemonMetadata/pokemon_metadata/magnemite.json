@@ -1,0 +1,23 @@
+{
+  "name": "Magnemite #81",
+  "description": "A Pokémon NFT of magnemite",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/magnemite.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Type",
+      "value": "steel"
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    },
+    {
+      "trait_type": "Weight",
+      "value": 60
+    }
+  ]
+}

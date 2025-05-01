@@ -1,0 +1,19 @@
+{
+  "name": "Seel #86",
+  "description": "A Pokémon NFT of seel",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/seel.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    },
+    {
+      "trait_type": "Weight",
+      "value": 900
+    }
+  ]
+}

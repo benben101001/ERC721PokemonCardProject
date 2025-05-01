@@ -1,0 +1,23 @@
+{
+  "name": "Poliwrath #62",
+  "description": "A Pokémon NFT of poliwrath",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/poliwrath.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Height",
+      "value": 13
+    },
+    {
+      "trait_type": "Weight",
+      "value": 540
+    }
+  ]
+}

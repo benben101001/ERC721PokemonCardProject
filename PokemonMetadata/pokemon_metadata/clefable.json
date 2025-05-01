@@ -1,0 +1,19 @@
+{
+  "name": "Clefable #36",
+  "description": "A Pokémon NFT of clefable",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/clefable.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Height",
+      "value": 13
+    },
+    {
+      "trait_type": "Weight",
+      "value": 400
+    }
+  ]
+}

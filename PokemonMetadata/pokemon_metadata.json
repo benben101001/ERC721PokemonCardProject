@@ -1,0 +1,2102 @@
+[
+    {
+        "name": "bulbasaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "ivysaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "name": "venusaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "name": "charmander",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "name": "charmeleon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "name": "squirtle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "name": "wartortle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 8
+            }
+        ]
+    },
+    {
+        "name": "blastoise",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "name": "caterpie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "name": "metapod",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 11
+            }
+        ]
+    },
+    {
+        "name": "butterfree",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 12
+            }
+        ]
+    },
+    {
+        "name": "weedle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "name": "kakuna",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "name": "beedrill",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 16
+            }
+        ]
+    },
+    {
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 17
+            }
+        ]
+    },
+    {
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 18
+            }
+        ]
+    },
+    {
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 19
+            }
+        ]
+    },
+    {
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 20
+            }
+        ]
+    },
+    {
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 21
+            }
+        ]
+    },
+    {
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 22
+            }
+        ]
+    },
+    {
+        "name": "ekans",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 23
+            }
+        ]
+    },
+    {
+        "name": "arbok",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 24
+            }
+        ]
+    },
+    {
+        "name": "pikachu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 25
+            }
+        ]
+    },
+    {
+        "name": "raichu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 26
+            }
+        ]
+    },
+    {
+        "name": "sandshrew",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 27
+            }
+        ]
+    },
+    {
+        "name": "sandslash",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 28
+            }
+        ]
+    },
+    {
+        "name": "nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 29
+            }
+        ]
+    },
+    {
+        "name": "nidorina",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 30
+            }
+        ]
+    },
+    {
+        "name": "nidoqueen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 31
+            }
+        ]
+    },
+    {
+        "name": "nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 32
+            }
+        ]
+    },
+    {
+        "name": "nidorino",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 33
+            }
+        ]
+    },
+    {
+        "name": "nidoking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 34
+            }
+        ]
+    },
+    {
+        "name": "clefairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fairy"
+            },
+            {
+                "trait_type": "ID",
+                "value": 35
+            }
+        ]
+    },
+    {
+        "name": "clefable",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fairy"
+            },
+            {
+                "trait_type": "ID",
+                "value": 36
+            }
+        ]
+    },
+    {
+        "name": "vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 37
+            }
+        ]
+    },
+    {
+        "name": "ninetales",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 38
+            }
+        ]
+    },
+    {
+        "name": "jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 39
+            }
+        ]
+    },
+    {
+        "name": "wigglytuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 40
+            }
+        ]
+    },
+    {
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 41
+            }
+        ]
+    },
+    {
+        "name": "golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 42
+            }
+        ]
+    },
+    {
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 43
+            }
+        ]
+    },
+    {
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 44
+            }
+        ]
+    },
+    {
+        "name": "vileplume",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 45
+            }
+        ]
+    },
+    {
+        "name": "paras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 46
+            }
+        ]
+    },
+    {
+        "name": "parasect",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 47
+            }
+        ]
+    },
+    {
+        "name": "venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 48
+            }
+        ]
+    },
+    {
+        "name": "venomoth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 49
+            }
+        ]
+    },
+    {
+        "name": "diglett",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 50
+            }
+        ]
+    },
+    {
+        "name": "dugtrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 51
+            }
+        ]
+    },
+    {
+        "name": "meowth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 52
+            }
+        ]
+    },
+    {
+        "name": "persian",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 53
+            }
+        ]
+    },
+    {
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 54
+            }
+        ]
+    },
+    {
+        "name": "golduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 55
+            }
+        ]
+    },
+    {
+        "name": "mankey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 56
+            }
+        ]
+    },
+    {
+        "name": "primeape",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 57
+            }
+        ]
+    },
+    {
+        "name": "growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 58
+            }
+        ]
+    },
+    {
+        "name": "arcanine",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 59
+            }
+        ]
+    },
+    {
+        "name": "poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 60
+            }
+        ]
+    },
+    {
+        "name": "poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 61
+            }
+        ]
+    },
+    {
+        "name": "poliwrath",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 62
+            }
+        ]
+    },
+    {
+        "name": "abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 63
+            }
+        ]
+    },
+    {
+        "name": "kadabra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 64
+            }
+        ]
+    },
+    {
+        "name": "alakazam",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 65
+            }
+        ]
+    },
+    {
+        "name": "machop",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 66
+            }
+        ]
+    },
+    {
+        "name": "machoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 67
+            }
+        ]
+    },
+    {
+        "name": "machamp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 68
+            }
+        ]
+    },
+    {
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 69
+            }
+        ]
+    },
+    {
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 70
+            }
+        ]
+    },
+    {
+        "name": "victreebel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 71
+            }
+        ]
+    },
+    {
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 72
+            }
+        ]
+    },
+    {
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 73
+            }
+        ]
+    },
+    {
+        "name": "geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 74
+            }
+        ]
+    },
+    {
+        "name": "graveler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 75
+            }
+        ]
+    },
+    {
+        "name": "golem",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 76
+            }
+        ]
+    },
+    {
+        "name": "ponyta",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 77
+            }
+        ]
+    },
+    {
+        "name": "rapidash",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 78
+            }
+        ]
+    },
+    {
+        "name": "slowpoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 79
+            }
+        ]
+    },
+    {
+        "name": "slowbro",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 80
+            }
+        ]
+    },
+    {
+        "name": "magnemite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 81
+            }
+        ]
+    },
+    {
+        "name": "magneton",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 82
+            }
+        ]
+    },
+    {
+        "name": "farfetchd",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 83
+            }
+        ]
+    },
+    {
+        "name": "doduo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 84
+            }
+        ]
+    },
+    {
+        "name": "dodrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 85
+            }
+        ]
+    },
+    {
+        "name": "seel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 86
+            }
+        ]
+    },
+    {
+        "name": "dewgong",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 87
+            }
+        ]
+    },
+    {
+        "name": "grimer",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 88
+            }
+        ]
+    },
+    {
+        "name": "muk",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 89
+            }
+        ]
+    },
+    {
+        "name": "shellder",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 90
+            }
+        ]
+    },
+    {
+        "name": "cloyster",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 91
+            }
+        ]
+    },
+    {
+        "name": "gastly",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ghost"
+            },
+            {
+                "trait_type": "ID",
+                "value": 92
+            }
+        ]
+    },
+    {
+        "name": "haunter",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ghost"
+            },
+            {
+                "trait_type": "ID",
+                "value": 93
+            }
+        ]
+    },
+    {
+        "name": "gengar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ghost"
+            },
+            {
+                "trait_type": "ID",
+                "value": 94
+            }
+        ]
+    },
+    {
+        "name": "onix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 95
+            }
+        ]
+    },
+    {
+        "name": "drowzee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 96
+            }
+        ]
+    },
+    {
+        "name": "hypno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 97
+            }
+        ]
+    },
+    {
+        "name": "krabby",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 98
+            }
+        ]
+    },
+    {
+        "name": "kingler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 99
+            }
+        ]
+    },
+    {
+        "name": "voltorb",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 100
+            }
+        ]
+    },
+    {
+        "name": "electrode",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 101
+            }
+        ]
+    },
+    {
+        "name": "exeggcute",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 102
+            }
+        ]
+    },
+    {
+        "name": "exeggutor",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 103
+            }
+        ]
+    },
+    {
+        "name": "cubone",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 104
+            }
+        ]
+    },
+    {
+        "name": "marowak",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 105
+            }
+        ]
+    },
+    {
+        "name": "hitmonlee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 106
+            }
+        ]
+    },
+    {
+        "name": "hitmonchan",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fighting"
+            },
+            {
+                "trait_type": "ID",
+                "value": 107
+            }
+        ]
+    },
+    {
+        "name": "lickitung",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 108
+            }
+        ]
+    },
+    {
+        "name": "koffing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 109
+            }
+        ]
+    },
+    {
+        "name": "weezing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "poison"
+            },
+            {
+                "trait_type": "ID",
+                "value": 110
+            }
+        ]
+    },
+    {
+        "name": "rhyhorn",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 111
+            }
+        ]
+    },
+    {
+        "name": "rhydon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ground"
+            },
+            {
+                "trait_type": "ID",
+                "value": 112
+            }
+        ]
+    },
+    {
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 113
+            }
+        ]
+    },
+    {
+        "name": "tangela",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "grass"
+            },
+            {
+                "trait_type": "ID",
+                "value": 114
+            }
+        ]
+    },
+    {
+        "name": "kangaskhan",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 115
+            }
+        ]
+    },
+    {
+        "name": "horsea",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 116
+            }
+        ]
+    },
+    {
+        "name": "seadra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 117
+            }
+        ]
+    },
+    {
+        "name": "goldeen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 118
+            }
+        ]
+    },
+    {
+        "name": "seaking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 119
+            }
+        ]
+    },
+    {
+        "name": "staryu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 120
+            }
+        ]
+    },
+    {
+        "name": "starmie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 121
+            }
+        ]
+    },
+    {
+        "name": "mr-mime",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 122
+            }
+        ]
+    },
+    {
+        "name": "scyther",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 123
+            }
+        ]
+    },
+    {
+        "name": "jynx",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ice"
+            },
+            {
+                "trait_type": "ID",
+                "value": 124
+            }
+        ]
+    },
+    {
+        "name": "electabuzz",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 125
+            }
+        ]
+    },
+    {
+        "name": "magmar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 126
+            }
+        ]
+    },
+    {
+        "name": "pinsir",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "bug"
+            },
+            {
+                "trait_type": "ID",
+                "value": 127
+            }
+        ]
+    },
+    {
+        "name": "tauros",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 128
+            }
+        ]
+    },
+    {
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 129
+            }
+        ]
+    },
+    {
+        "name": "gyarados",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 130
+            }
+        ]
+    },
+    {
+        "name": "lapras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 131
+            }
+        ]
+    },
+    {
+        "name": "ditto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 132
+            }
+        ]
+    },
+    {
+        "name": "eevee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 133
+            }
+        ]
+    },
+    {
+        "name": "vaporeon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "water"
+            },
+            {
+                "trait_type": "ID",
+                "value": 134
+            }
+        ]
+    },
+    {
+        "name": "jolteon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 135
+            }
+        ]
+    },
+    {
+        "name": "flareon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 136
+            }
+        ]
+    },
+    {
+        "name": "porygon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 137
+            }
+        ]
+    },
+    {
+        "name": "omanyte",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 138
+            }
+        ]
+    },
+    {
+        "name": "omastar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 139
+            }
+        ]
+    },
+    {
+        "name": "kabuto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 140
+            }
+        ]
+    },
+    {
+        "name": "kabutops",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 141
+            }
+        ]
+    },
+    {
+        "name": "aerodactyl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "rock"
+            },
+            {
+                "trait_type": "ID",
+                "value": 142
+            }
+        ]
+    },
+    {
+        "name": "snorlax",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "normal"
+            },
+            {
+                "trait_type": "ID",
+                "value": 143
+            }
+        ]
+    },
+    {
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "ice"
+            },
+            {
+                "trait_type": "ID",
+                "value": 144
+            }
+        ]
+    },
+    {
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "electric"
+            },
+            {
+                "trait_type": "ID",
+                "value": 145
+            }
+        ]
+    },
+    {
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "fire"
+            },
+            {
+                "trait_type": "ID",
+                "value": 146
+            }
+        ]
+    },
+    {
+        "name": "dratini",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "dragon"
+            },
+            {
+                "trait_type": "ID",
+                "value": 147
+            }
+        ]
+    },
+    {
+        "name": "dragonair",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "dragon"
+            },
+            {
+                "trait_type": "ID",
+                "value": 148
+            }
+        ]
+    },
+    {
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "dragon"
+            },
+            {
+                "trait_type": "ID",
+                "value": 149
+            }
+        ]
+    },
+    {
+        "name": "mewtwo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "attributes": [
+            {
+                "trait_type": "Type",
+                "value": "psychic"
+            },
+            {
+                "trait_type": "ID",
+                "value": 150
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "Jigglypuff #39",
+  "description": "A Pokémon NFT of jigglypuff",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/jigglypuff.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    },
+    {
+      "trait_type": "Weight",
+      "value": 55
+    }
+  ]
+}

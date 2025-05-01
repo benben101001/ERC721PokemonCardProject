@@ -1,0 +1,19 @@
+{
+  "name": "Sandslash #28",
+  "description": "A Pokémon NFT of sandslash",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/sandslash.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    },
+    {
+      "trait_type": "Weight",
+      "value": 295
+    }
+  ]
+}

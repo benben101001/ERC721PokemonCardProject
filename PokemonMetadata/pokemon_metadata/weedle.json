@@ -1,0 +1,23 @@
+{
+  "name": "Weedle #13",
+  "description": "A Pokémon NFT of weedle",
+  "image": "ipfs://<REPLACE_WITH_IMAGE_CID>/weedle.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "bug"
+    },
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    },
+    {
+      "trait_type": "Weight",
+      "value": 32
+    }
+  ]
+}
