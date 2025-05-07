@@ -71,3 +71,42 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.listings-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.sort-select {
+  font-family: 'Press Start 2P', monospace;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 4px solid var(--mint);
+  background-color: var(--navy);
+  color: var(--white);
+  font-size: 0.8rem;
+  min-width: 250px;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--mint);
+  transition: all 0.3s ease;
+}
+
+.sort-select:hover {
+  background-color: var(--purple);
+  box-shadow: 0 0 15px var(--mint);
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: var(--pink);
+  box-shadow: 0 0 15px var(--pink);
+}
+
+.sort-select option {
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 10px;
+  font-family: 'Press Start 2P', monospace;
+}

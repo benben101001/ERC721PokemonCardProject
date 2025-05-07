@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.28;
+pragma solidity ^0.8.20;
 
 // Import OpenZeppelin contracts for ERC721 NFT standard and ownership management
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";

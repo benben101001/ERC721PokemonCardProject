@@ -43,9 +43,11 @@ body {
 /* Header styles */
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border-bottom: none;
 }
 
 .title {
@@ -529,3 +531,98 @@ input {
   text-align: center;
   font-size: 0.8rem;
 }
+
+.wallet-connection {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.account-address {
+  font-family: var(--font-family);
+  background-color: var(--minty-cyan);
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--minty-purple);
+  color: var(--minty-yellow);
+  font-size: 0.8rem;
+  box-shadow: 4px 4px 0 var(--minty-dblue);
+}
+
+.connect-button, .disconnect-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--minty-purple);
+  border-radius: 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  box-shadow: 4px 4px 0 var(--minty-dblue);
+}
+
+.connect-button {
+  background-color: var(--minty-green);
+  color: var(--minty-black);
+}
+
+.connect-button:hover {
+  background-color: var(--minty-yellow);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--minty-dblue);
+}
+
+.disconnect-button {
+  background-color: var(--minty-purple);
+  color: var(--minty-yellow);
+}
+
+.disconnect-button:hover {
+  background-color: var(--minty-red);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--minty-dblue);
+}
+
+.listings-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.sort-select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid var(--minty-purple);
+  background-color: var(--minty-black);
+  color: var(--minty-yellow);
+  font-size: 14px;
+  font-family: var(--font-family);
+  box-shadow: 4px 4px 0 var(--minty-dblue);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sort-select:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--minty-dblue);
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: var(--minty-green);
+  box-shadow: 4px 4px 0 var(--minty-dblue);
+}
+
+.sort-select option {
+  padding: 10px;
+  background: var(--minty-black);
+  color: var(--minty-yellow);
+  font-family: var(--font-family);
+}
+ 

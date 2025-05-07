@@ -1,16 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
+import { CONTRACT_ADDRESSES } from '../config';
+import tradingAbi from '../abis/TradingPlatform.json';
 
-// Define your contract address and ABI
-const CONTRACT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
-const CONTRACT_ABI = [
-  // Add your contract ABI here (you can generate it using Remix or Hardhat)
-  "function listCard(address nftContract, uint256 tokenId, uint256 price) external",
-  "function buyCard(uint256 listingId) external payable",
-  "function withdraw() external",
-  "function listings(uint256) external view returns (address seller, address nftContract, uint256 tokenId, uint256 price)"
-];
 //Auction Platform
 const TradingPlatform = () => {
   const [account, setAccount] = useState(null);
@@ -27,9 +20,13 @@ const TradingPlatform = () => {
       const connection = await web3Modal.connect();
       const ethersProvider = new ethers.providers.Web3Provider(connection);
       const signer = ethersProvider.getSigner();
-      const contractInstance = new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_ABI, signer);
+      const tradingPlatformContract = new ethers.Contract(
+        CONTRACT_ADDRESSES.TRADING_PLATFORM,
+        tradingAbi.abi,
+        signer
+      );
       setProvider(ethersProvider);
-      setContract(contractInstance);
+      setContract(tradingPlatformContract);
       const userAccount = await signer.getAddress();
       setAccount(userAccount);
     };
@@ -39,7 +36,7 @@ const TradingPlatform = () => {
 
   const fetchListings = async () => {
     if (contract) {
-      const totalListings = await contract.listingCounter();
+      const totalListings = await contract.getListingCount();
       const fetchedListings = [];
       for (let i = 0; i < totalListings; i++) {
         const listing = await contract.listings(i);

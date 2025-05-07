@@ -2,6 +2,7 @@
 const hre = require("hardhat");
 const fs = require("fs");
 const path = require("path");
+const { time } = require("@nomicfoundation/hardhat-network-helpers");
 
 /**
  * @dev Main deployment function that:
@@ -11,6 +12,11 @@ const path = require("path");
  * 4. Lists them on the marketplace
  */
 async function main() {
+  // Synchronize blockchain time with system time
+  const currentTime = Math.floor(Date.now() / 1000);
+  await time.setNextBlockTimestamp(currentTime);
+  console.log("Synchronized blockchain time with system time:", new Date(currentTime * 1000).toISOString());
+
   const [deployer] = await hre.ethers.getSigners();
   console.log("Deploying contracts with the account:", deployer.address);
 

@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
+import auctionAbi from '../abis/AuctionPlatform.json';
+import { CONTRACT_ADDRESSES } from '../config';
 
-const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuction, isOwner, pendingWithdrawal }) => {
+const AUCTION_PLATFORM_ADDRESS = CONTRACT_ADDRESSES.AUCTION_PLATFORM;
+
+const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuction, isOwner, pendingWithdrawal, provider, account }) => {
   const [pokemonData, setPokemonData] = useState({
     name: "Loading...",
     image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png",
@@ -11,6 +15,7 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
   });
   const [bidAmount, setBidAmount] = useState('');
   const [timeLeft, setTimeLeft] = useState('');
+  const [isExtended, setIsExtended] = useState(false);
 
   useEffect(() => {
     const fetchPokemonData = async () => {
@@ -79,12 +84,47 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
     }
   }, [pokemon]);
 
+  // Add event listener for bid events
+  useEffect(() => {
+    if (isAuction && pokemon.id !== undefined && provider) {
+      try {
+        const contract = new ethers.Contract(AUCTION_PLATFORM_ADDRESS, auctionAbi.abi, provider);
+        
+        const handleBid = (auctionId, bidder, amount) => {
+          if (Number(auctionId) === pokemon.id) {
+            const now = Math.floor(Date.now() / 1000);
+            const endTime = Number(pokemon.endTime);
+            const timeRemaining = endTime - now - 300; // Account for display offset
+            
+            if (timeRemaining <= 120) { // If less than 2 minutes remaining
+              console.log('Bid placed in last 2 minutes:', {
+                auctionId: auctionId.toString(),
+                bidder: bidder,
+                amount: ethers.formatEther(amount),
+                timeRemaining: timeRemaining
+              });
+              setIsExtended(true);
+            }
+          }
+        };
+
+        contract.on("BidPlaced", handleBid);
+
+        return () => {
+          contract.off("BidPlaced", handleBid);
+        };
+      } catch (error) {
+        console.error('Error setting up event listener:', error);
+      }
+    }
+  }, [isAuction, pokemon.id, pokemon.endTime, provider]);
+
   useEffect(() => {
     if (isAuction && pokemon.endTime) {
       const updateTimer = () => {
         const now = Math.floor(Date.now() / 1000);
-        const endTime = Number(pokemon.endTime) - 300;
-        const timeRemaining = endTime - now;
+        const endTime = Number(pokemon.endTime);
+        const timeRemaining = endTime - now - 300; // Subtract 300 seconds for display
         
         if (timeRemaining <= 0) {
           setTimeLeft('Auction ended');
@@ -92,7 +132,9 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
           const hours = Math.floor(timeRemaining / 3600);
           const minutes = Math.floor((timeRemaining % 3600) / 60);
           const seconds = timeRemaining % 60;
-          setTimeLeft(`${hours}h ${minutes}m ${seconds}s`);
+          
+          const timeString = `${hours}h ${minutes}m ${seconds}s`;
+          setTimeLeft(isExtended ? `${timeString} (Extended)` : timeString);
         }
       };
 
@@ -100,12 +142,20 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
       const timer = setInterval(updateTimer, 1000);
       return () => clearInterval(timer);
     }
-  }, [isAuction, pokemon.endTime]);
+  }, [isAuction, pokemon.endTime, isExtended]);
 
   const handleBid = () => {
     if (bidAmount && parseFloat(bidAmount) > 0) {
       onBid(pokemon, bidAmount);
     }
+  };
+
+  const formatAddress = (address) => {
+    if (!address) return '';
+    if (address.toLowerCase() === account?.toLowerCase()) {
+      return 'You!';
+    }
+    return `${address.slice(0, 6)}...${address.slice(-4)}`;
   };
 
   return (
@@ -131,7 +181,10 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
             {isAuction ? (
               <>
                 <p>Current Bid: {ethers.formatEther(pokemon.highestBid || 0)} ETH</p>
-                <p>Ends at: {new Date((Number(pokemon.endTime) - 300) * 1000).toLocaleString()}</p>
+                {pokemon.highestBidder && (
+                  <p>Highest Bidder: {formatAddress(pokemon.highestBidder)}</p>
+                )}
+                <p>Ends at: {new Date(Number(pokemon.endTime) * 1000).toLocaleString()}</p>
                 <p>Time left: {timeLeft}</p>
                 
                 {!pokemon.ended && (
