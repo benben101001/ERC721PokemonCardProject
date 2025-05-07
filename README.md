@@ -1,6 +1,6 @@
-# Pokemon NFT Marketplace
+# Pokémon NFT Marketplace and Auction Platform
 
-A decentralized marketplace for trading Pokemon NFT cards, built with Solidity, Hardhat, and React.
+A decentralized marketplace for trading and auctioning Pokémon NFT cards, built with Solidity, Hardhat, and React.
 
 ## Features
 
@@ -12,10 +12,12 @@ A decentralized marketplace for trading Pokemon NFT cards, built with Solidity, 
 
 ## Prerequisites
 
-- Node.js (v16 or later)
-- npm or yarn
-- MetaMask wallet
-- Local Hardhat network or Sepolia testnet ETH (for testing)
+Before you begin, ensure you have the following installed:
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+- MetaMask browser extension
+- IPFS Desktop or IPFS CLI
+- Git
 
 ## Installation
 
@@ -25,79 +27,148 @@ git clone <repository-url>
 cd NFT_Pokemon_Project
 ```
 
-2. Install dependencies:
+2. Install backend dependencies:
 ```bash
 npm install
 ```
 
-## Smart Contracts
+3. Install frontend dependencies:
+```bash
+cd frontend
+npm install
+cd ..
+```
 
-The project consists of two main smart contracts:
+## Configuration
 
-1. `PokemonCard.sol`: An ERC721 NFT contract for minting and managing Pokemon cards
-   - Implements ERC721URIStorage for IPFS metadata
-   - Only owner can mint new cards
-   - Tracks total supply and ownership
+### 1. Hardhat Configuration
+The `hardhat.config.js` file is already configured for local development. For production deployment, you'll need to:
+- Add your network configurations (e.g., Sepolia, Mainnet)
+- Add your private keys or environment variables for deployment
+- Configure gas settings if needed
 
-2. `TradingPlatform.sol`: A marketplace contract for trading Pokemon cards
-   - Implements secure listing and buying functionality
-   - Uses ReentrancyGuard for security
-   - Handles payments and withdrawals
-   - Manages listings and ownership transfers
+### 2. Contract Addresses
+The contract addresses are already configured in `frontend/src/config.js`. If you deploy the contracts to a different network or with different addresses, you'll need to update this file with the new addresses.
 
-## Deployment
+### 3. IPFS Setup
+1. Install IPFS Desktop or IPFS CLI
+2. Start IPFS daemon:
+```bash
+ipfs daemon
+```
+3. Ensure IPFS is running on port 5001 (default)
 
-1. Start the local Hardhat node:
+## Running the Application
+
+### 1. Start Local Blockchain
 ```bash
 npx hardhat node
 ```
 
-2. In a new terminal, deploy contracts and mint Pokemon cards:
+### 2. Deploy Contracts
+In a new terminal:
 ```bash
 npx hardhat run scripts/deployAndMintPokemons.js --network localhost
 ```
+Note down the deployed contract addresses and update your frontend `config.js` file.
 
-This will:
-- Deploy the PokemonCard contract
-- Deploy the TradingPlatform contract
-- Mint 100 Pokemon cards with IPFS-hosted metadata
-- List all cards on the marketplace for 0.1 ETH each
-
-## Project Structure
-
-```
-NFT_Pokemon_Project/
-├── contracts/              # Smart contracts
-│   ├── PokemonCard.sol    # NFT contract
-│   ├── TradingPlatform.sol # Marketplace contract
-│   └── IERC721Receiver.sol # Interface for NFT transfers
-├── scripts/               # Deployment scripts
-│   └── deployAndMintPokemons.js # Deployment and minting script
-├── mint_metadata/         # Pokemon metadata
-│   └── pokemon_cid_mapping.json # IPFS CIDs for Pokemon metadata
-└── test/                 # Smart contract tests
+### 3. Start Frontend
+In a new terminal:
+```bash
+cd frontend
+npm start
 ```
 
-## Smart Contract Functions
+### 4. Run Tests
+```bash
+npx hardhat test
+```
 
-### PokemonCard.sol
-- `mintCard(address recipient, string tokenURI)`: Mints a new Pokemon card
-- `totalSupply()`: Returns total number of minted cards
-- `ownerOfToken(uint256 tokenId)`: Returns owner of a specific card
+## Using the Application
 
-### TradingPlatform.sol
-- `listCard(address nftContract, uint256 tokenId, uint256 price)`: Lists a card for sale
-- `buyCard(uint256 listingId)`: Buys a listed card
-- `withdraw()`: Withdraws earnings from sales
+1. Connect MetaMask:
+   - Add the local network (http://127.0.0.1:8545)
+   - Import one of the test accounts provided by Hardhat
+   - Ensure you have some test ETH
 
-## Security Features
+2. Minting NFTs:
+   - Use the owner account to mint new Pokémon cards
+   - Upload metadata to IPFS
+   - Approve the marketplace/auction contract
 
-- Reentrancy protection on all state-changing functions
-- Secure payment handling with pending withdrawals
-- Proper access control for minting
-- Safe NFT transfers with ERC721Receiver implementation
+3. Marketplace Features:
+   - List NFTs for sale
+   - Buy listed NFTs
+   - Withdraw proceeds
 
-## License
+4. Auction Features:
+   - Start auctions with starting price
+   - Place bids
+   - End auctions
+   - Withdraw outbid funds
+
+## Development
+
+### Project Structure
+```
+├── contracts/           # Smart contracts
+├── frontend/           # React frontend
+├── scripts/            # Deployment scripts
+├── test/              # Test files
+├── hardhat.config.js  # Hardhat configuration
+└── package.json       # Project dependencies
+```
+
+### Key Files
+- `contracts/PokemonCard.sol`: NFT contract
+- `contracts/TradingPlatform.sol`: Marketplace contract
+- `contracts/AuctionPlatform.sol`: Auction contract
+- `frontend/src/App.js`: Main frontend application
+- `scripts/deploy.js`: Contract deployment script
+
+## Testing
+
+Run the test suite:
+```bash
+npx hardhat test
+```
+
+The test suite includes:
+- Marketplace functionality
+- Auction functionality
+- Security tests
+- Integration tests
+
+## Security Considerations
+
+- All contracts use OpenZeppelin's security features
+- Reentrancy protection implemented
+- Access control for critical functions
+- Emergency pause functionality
+- Anti-sniping measures in auctions
+
+## Troubleshooting
+
+1. MetaMask Connection Issues:
+   - Ensure you're on the correct network
+   - Check if the RPC URL is correct
+   - Verify contract addresses in the frontend
+   - Disconnect in the MetaMask wallet and then connect again trough the app
+
+2. Contract Deployment Issues:
+   - Check Hardhat network is running
+   - Verify gas settings
+   - Ensure sufficient test ETH
+   - Check the addresses
+
+3. IPFS Issues:
+   - Verify IPFS daemon is running
+   - Check IPFS gateway accessibility
+   - Ensure metadata format is correct
+
+
+
+
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 

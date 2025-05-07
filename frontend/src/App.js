@@ -413,7 +413,7 @@ function App() {
       const durationSeconds = parseInt(auctionDuration) + 1; // Add 1 second to account for block timestamp discrepancy
       const startAmountWei = ethers.parseEther(auctionStartAmount);
       
-      if (isNaN(durationSeconds) || durationSeconds <= 0) {
+      if (isNaN(durationSeconds) || durationSeconds <= 1) {
         throw new Error("Please enter a valid duration in seconds");
       }
       

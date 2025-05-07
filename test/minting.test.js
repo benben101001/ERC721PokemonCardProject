@@ -1,13 +1,19 @@
 const { expect } = require("chai");
-const { ethers } = require("hardhat");
+const { ethers, network } = require("hardhat");
 
 describe("PokemonCard Minting", function () {
   let owner, user, PokemonCard, card;
 
   beforeEach(async function () {
+    await network.provider.send("hardhat_reset");
+    const lastBlock = await ethers.provider.getBlock("latest");
+    const nextTimestamp = lastBlock.timestamp + 1;
+    await network.provider.send("evm_setNextBlockTimestamp", [nextTimestamp]);
+    await network.provider.send("evm_mine");
     [owner, user] = await ethers.getSigners();
     PokemonCard = await ethers.getContractFactory("PokemonCard");
     card = await PokemonCard.deploy();
+    await card.waitForDeployment();
   });
 
   it("should allow only owner to mint", async function () {

@@ -50,6 +50,7 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         uint256 durationInSeconds,
         uint256 startingAmount
     ) external whenNotPaused {
+        require(durationInSeconds > 0, "Duration must be greater than 0");
         IERC721(nftContract).transferFrom(msg.sender, address(this), tokenId);
 
         uint256 auctionId = auctionCounter++;
@@ -102,6 +103,7 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         Auction storage a = auctions[auctionId];
         require(block.timestamp >= a.endTime, "Auction not yet ended");
         require(!a.ended, "Auction already ended");
+        require(msg.sender == owner() || msg.sender == a.seller, "Only owner or seller can end auction");
 
         a.ended = true;
 
