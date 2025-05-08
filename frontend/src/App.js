@@ -45,6 +45,7 @@ function App() {
   const [pendingWithdrawals, setPendingWithdrawals] = useState({});
   const [userNFTs, setUserNFTs] = useState([]);
   const [auctionStartAmount, setAuctionStartAmount] = useState("");
+  const [isOwner, setIsOwner] = useState(false);
 
   /**
    * @dev Connect to MetaMask wallet on component mount
@@ -113,6 +114,17 @@ function App() {
       fetchListings();
     }
   }, [tab, account]);
+
+  useEffect(() => {
+    const fetchOwner = async () => {
+      if (provider && account) {
+        const contract = new ethers.Contract(POKEMON_CARD_ADDRESS, pokemonCardAbi.abi, provider);
+        const ownerAddress = await contract.owner();
+        setIsOwner(ownerAddress.toLowerCase() === account.toLowerCase());
+      }
+    };
+    fetchOwner();
+  }, [provider, account]);
 
   const fetchTokenURI = async (tokenId) => {
     try {
@@ -723,6 +735,7 @@ function App() {
               onMint={handleMint}
               provider={provider}
               signer={signer}
+              isOwner={isOwner}
             />
           )}
 

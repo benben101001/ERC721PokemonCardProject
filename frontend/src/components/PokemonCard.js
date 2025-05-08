@@ -123,8 +123,8 @@ const PokemonCard = ({ pokemon, onBuy, onBid, onEndAuction, onWithdraw, isAuctio
     if (isAuction && pokemon.endTime) {
       const updateTimer = () => {
         const now = Math.floor(Date.now() / 1000);
-        const endTime = Number(pokemon.endTime);
-        const timeRemaining = endTime - now - 300; // Subtract 300 seconds for display
+        const endTime = Number(pokemon.endTime) -300;
+        const timeRemaining = endTime - now ; // Subtract 300 seconds for display
         
         if (timeRemaining <= 0) {
           setTimeLeft('Auction ended');

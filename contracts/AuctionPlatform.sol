@@ -44,6 +44,13 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
     event ExtensionNeeded(uint256 indexed auctionId, uint256 currentEndTime);
     event AuctionExtended(uint256 indexed auctionId, uint256 newEndTime);
 
+    /**
+     * @notice Starts a new auction for a given NFT
+     * @param nftContract Address of the NFT contract
+     * @param tokenId ID of the NFT to auction
+     * @param durationInSeconds Duration of the auction in seconds
+     * @param startingAmount Minimum starting bid amount (in wei)
+     */
     function startAuction(
         address nftContract,
         uint256 tokenId,
@@ -64,6 +71,10 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         emit AuctionStarted(auctionId, msg.sender, nftContract, tokenId, a.endTime, startingAmount);
     }
 
+    /**
+     * @notice Place a bid on an active auction
+     * @param auctionId ID of the auction to bid on
+     */
     function bid(uint256 auctionId) external payable nonReentrant whenNotPaused {
         Auction storage auction = auctions[auctionId];
         require(!auction.ended, "Auction already ended");
@@ -87,6 +98,10 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         emit BidPlaced(auctionId, msg.sender, msg.value);
     }
 
+    /**
+     * @notice Withdraw funds if you have been outbid
+     * @param auctionId ID of the auction to withdraw from
+     */
     function withdraw(uint256 auctionId) external nonReentrant whenNotPaused {
         Auction storage a = auctions[auctionId];
         uint256 amount = a.bids[msg.sender];
@@ -99,6 +114,10 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         emit Withdrawn(auctionId, msg.sender, amount);
     }
 
+    /**
+     * @notice End an auction and transfer NFT/funds
+     * @param auctionId ID of the auction to end
+     */
     function endAuction(uint256 auctionId) external nonReentrant whenNotPaused {
         Auction storage a = auctions[auctionId];
         require(block.timestamp >= a.endTime, "Auction not yet ended");
@@ -118,6 +137,18 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         emit AuctionEnded(auctionId, a.highestBidder, a.highestBid);
     }
 
+    /**
+     * @notice Get details of an auction
+     * @param auctionId ID of the auction
+     * @return seller Seller address
+     * @return nftContract NFT contract address
+     * @return tokenId NFT token ID
+     * @return endTime Auction end timestamp
+     * @return highestBid Highest bid amount
+     * @return highestBidder Highest bidder address
+     * @return ended Whether the auction has ended
+     * @return startingAmount Starting bid amount
+     */
     function getAuction(uint256 auctionId)
         external
         view
@@ -145,14 +176,28 @@ contract AuctionPlatform is ReentrancyGuard, Pausable, Ownable {
         );
     }
 
+    /**
+     * @notice Get the pending withdrawal amount for a bidder in an auction
+     * @param auctionId ID of the auction
+     * @param bidder Address of the bidder
+     * @return Amount pending withdrawal
+     */
     function getPendingWithdrawal(uint256 auctionId, address bidder) external view returns (uint256) {
         return auctions[auctionId].bids[bidder];
     }
 
-    // Emergency stop (pause/unpause)
+    /**
+     * @notice Pause the contract (emergency stop)
+     * @dev Only callable by the owner
+     */
     function pause() external onlyOwner {
         _pause();
     }
+
+    /**
+     * @notice Unpause the contract
+     * @dev Only callable by the owner
+     */
     function unpause() external onlyOwner {
         _unpause();
     }

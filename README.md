@@ -6,8 +6,8 @@ A decentralized marketplace for trading and auctioning Pokémon NFT cards, built
 
 - Mint unique Pokemon NFT cards with IPFS-hosted metadata
 - List cards for sale in the marketplace
+- Auction off your cards
 - Buy and sell Pokemon cards with secure transactions
-- View card details and ownership history
 - Secure and transparent transactions with reentrancy protection
 
 ## Prerequisites
@@ -22,8 +22,8 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
+```bash 
+git clone <repository-url> //this step can be omitted if you have the files directly
 cd NFT_Pokemon_Project
 ```
 
@@ -57,6 +57,11 @@ The contract addresses are already configured in `frontend/src/config.js`. If yo
 ipfs daemon
 ```
 3. Ensure IPFS is running on port 5001 (default)
+4. 
+In a new terminal:
+```bash
+npx hardhat run scripts/uploadPokemons.mjs
+```
 
 ## Running the Application
 
@@ -93,8 +98,6 @@ npx hardhat test
 
 2. Minting NFTs:
    - Use the owner account to mint new Pokémon cards
-   - Upload metadata to IPFS
-   - Approve the marketplace/auction contract
 
 3. Marketplace Features:
    - List NFTs for sale
@@ -167,7 +170,11 @@ The test suite includes:
    - Ensure metadata format is correct
 
 
-
+## Contributions
+   -This project was completed as a solo effort.
+   - All smart contract code, frontend code, and tests were written by Benjamin Werlen.
+   - Cursor  was used for code suggestions, debugging, and UI advice, but all final implementation and integration was performed by me.
+   - No other students or external contributors were involved.
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.

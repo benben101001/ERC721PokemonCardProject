@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
 
-const MintPokemonForm = ({ onMint, provider, signer }) => {
+const MintPokemonForm = ({ onMint, provider, signer, isOwner }) => {
   const [formData, setFormData] = useState({
     name: '',
     height: '',
@@ -127,8 +127,13 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
   };
 
   return (
-    <div className="mint-form">
+    <div className="mint-form" style={{ filter: isOwner ? 'none' : 'grayscale(100%)', opacity: isOwner ? 1 : 0.6 }}>
       <h2>Create Your Pokemon NFT</h2>
+      {!isOwner && (
+        <div style={{ color: 'red', marginBottom: '1em', fontWeight: 'bold' }}>
+          Only the contract owner can mint new Pokemon cards. Contact the owner if you have good ideas.
+        </div>
+      )}
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Pokemon Name</label>
@@ -139,6 +144,7 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
             value={formData.name}
             onChange={handleInputChange}
             required
+            disabled={!isOwner}
           />
         </div>
 
@@ -151,6 +157,7 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
             value={formData.height}
             onChange={handleInputChange}
             required
+            disabled={!isOwner}
           />
         </div>
 
@@ -163,6 +170,7 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
             value={formData.weight}
             onChange={handleInputChange}
             required
+            disabled={!isOwner}
           />
         </div>
 
@@ -174,6 +182,7 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
             value={formData.type}
             onChange={handleInputChange}
             required
+            disabled={!isOwner}
           >
             <option value="">Select a type</option>
             <option value="Normal">Normal</option>
@@ -198,7 +207,7 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="image">Pokemon Image</label>
+          <label htmlFor="image">Image</label>
           <input
             type="file"
             id="image"
@@ -206,19 +215,18 @@ const MintPokemonForm = ({ onMint, provider, signer }) => {
             accept="image/*"
             onChange={handleImageChange}
             required
+            disabled={!isOwner}
           />
-          {previewUrl && (
-            <div className="image-preview">
-              <img src={previewUrl} alt="Preview" />
-            </div>
-          )}
         </div>
 
-        <button type="submit" className="mint-button">
-          Mint Pokemon NFT
-        </button>
+        <button type="submit" disabled={!isOwner}>Mint</button>
       </form>
-      {mintingStatus && <div className="status-message">{mintingStatus}</div>}
+      <div className="mint-status">{mintingStatus}</div>
+      {previewUrl && (
+        <div className="image-preview">
+          <img src={previewUrl} alt="Preview" style={{ maxWidth: '200px', marginTop: '1em' }} />
+        </div>
+      )}
     </div>
   );
 };
