@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash 
-git clone <https://github.com/benben101001/ERC721PokemonCardProject.git> 
+git clone https://github.com/benben101001/ERC721PokemonCardProject.git
 cd NFT_Pokemon_Project
 ```
 
